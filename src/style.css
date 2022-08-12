@@ -1,12 +1,19 @@
 body{
     margin: 0px;
+    font-family: 'Advent Pro', sans-serif;
+font-family: 'Cairo', sans-serif;
+font-family: 'Ibarra Real Nova', serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Secular One', sans-serif;
+background-color: #A27B5C;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #2C3639;
     top: 50%;
   }
   
@@ -16,7 +23,7 @@ ul {
   
   li {
     display: block;
-    color: white;
+    color: #DCD7C9;
     text-align: center;
     padding: 60px 40px;
     text-decoration: none;
@@ -24,30 +31,33 @@ ul {
   }
   
   li:hover:not(.active) {
-    background-color: #111;
+    background-color: #3F4E4F;
     cursor: pointer;
   }
 
   .active {
-    background-color: #04AA6D;
+    background-color: #DCD7C9;
+    color: #2C3639;
   }
 
 
 #content{
-    background-color: gray;
+    background-color: #A27B5C;
 }
 
 .container{
     display: flex;
     justify-content: space-between;
-    margin-left: 15%;
-    margin-right: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #2C3639;
 }
 .container img{
     height: 120px;
+    margin:5px;
 }
 .description{
-  background-color: lightblue;
+  background-color: #DCD7C9;
   margin-left: 15%;
   margin-right: 15%;
   min-height: 100vh;
@@ -56,6 +66,7 @@ ul {
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  padding-bottom: 50px;
   
 }
 .title{
@@ -63,6 +74,8 @@ ul {
 }
 .para{
   font-size: 2em;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .hotCoffeeList{
   display: grid;
@@ -71,6 +84,7 @@ ul {
 }
 .description .menu{
   font-size: 3.5em;
+  margin-bottom: 50px;
 }
 .hotCoffee, .icedCoffee, .desert{
   font-size: 2em;
@@ -92,7 +106,7 @@ ul {
   justify-content: center;
   display: flex;  
   position: fixed;
-  color: #BCC7CD;
+  color: #DCD7C9;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -115,5 +129,6 @@ ul {
 footer{
   grid-column-start: 1;
   grid-column-end:3;
-  background-color: #495C83;
+  background-color: #2C3639;
+  height: 46px;
 }

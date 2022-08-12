@@ -261,9 +261,42 @@ function createMenu(){
             desertList.appendChild(donutPrice);
 }
 function createContact(){
-    
+  e.innerHTML = "";
+  const title=document.createElement('div');
+  title.classList.add('title');
+  title.textContent="Reach Us";
+  description.appendChild(title);
+
+  const p1=document.createElement('p');
+  p1.classList.add('para');
+  p1.textContent="Call us: +1 (949) 354-2574";
+  description.appendChild(p1);
+
+  const p2=document.createElement('p');
+  p2.classList.add('para');
+  p2.textContent="Location: 26985 Brighton Lane, Lake Forest, CA 92630";
+  description.appendChild(p2);
+
+  const p3=document.createElement('p');
+  p3.classList.add('para');
+  p3.textContent="Business Hours: Mon to Fri from 9 a.m. to 5 p.m.";
+  description.appendChild(p3);
 }
 createHome();
+function createAbout(){
+  e.innerHTML = "";
+  
+
+  const title=document.createElement('div');
+  title.classList.add('title');
+  title.textContent="About us";
+  description.appendChild(title);
+
+  const para=document.createElement('p');
+  para.classList.add('para');
+  para.textContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices dolor vitae pulvinar varius. Nullam sed quam sed ante tincidunt ullamcorper porta a tortor. Integer sit amet posuere nunc.";
+  description.appendChild(para);
+}
 //createMenu()
 
 
