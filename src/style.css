@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 50%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 60px 40px;
+    text-decoration: none;
+    
+  }
+  
+  li:hover:not(.active) {
+    background-color: #111;
+    cursor: pointer;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+
+#content{
+    background-color: gray;
+}
+.description{
+    background-color: navy;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.container img{
+    height: 120px;
+}
